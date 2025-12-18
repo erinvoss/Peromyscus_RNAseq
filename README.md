@@ -5,7 +5,7 @@ Repository associated with publication "Mating system variation and gene express
 
 Link to our open access article published in Molecular Ecology: [Voss & Nachman 2024](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.17433)
 
-All sequence data have been deposited to the National Center for Biotechnology Information Sequence Read Archive: [BioProject PRJNA1068126]https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1068126
+All sequence data have been deposited to the National Center for Biotechnology Information Sequence Read Archive: [BioProject PRJNA1068126](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1068126)
 
 Annotated transcriptomes are available on [Dryad](https://datadryad.org/dataset/doi:10.5061/dryad.b5mkkwhmw)
 

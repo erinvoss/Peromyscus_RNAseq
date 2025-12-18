@@ -1,0 +1,13 @@
+*.log
+*.tmp
+*.fastq.gz
+*.fasta.gz
+*.fa
+*.fa.gz
+*.fna.gz
+*.fna.ga
+*.bam
+*.sam
+*.vcf
+*.vcf.gz
+/results

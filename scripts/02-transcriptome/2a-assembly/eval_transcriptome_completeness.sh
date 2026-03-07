@@ -7,8 +7,6 @@
 #SBATCH --account=fc_nachman
 #SBATCH --output=slurmout/busco_peca_job_%A.out
 #SBATCH --error=slurmout/busco_peca_job_%A.err
-#SBATCH --mail-type=ALL
-#SBATCH --mail-user=erinvoss@berkeley.edu
 
 cd $PEROMYSCUS_HOME/02-Trinity-Assembly/PECA-Trinity-Output/PECA-Trinity-95
 
@@ -23,6 +21,9 @@ echo "Assessing P. californicus transcriptome completeness with BUSCHO Euarchont
 busco -i Trinity-cd-hit-95.fa \
       -l /global/scratch/users/erinvoss/Peromyscus-RNA/References/Busco-Resources/euarchontoglires_odb10 \
       -o PECA_Busco_Output -m transcriptome --cpu 24 --offline
+
+echo "Generating summary statistics for Trinity output transcriptome"
+python /global/scratch/users/erinvoss/Peromyscus-RNA/scripts/trinity_scripts/trinity_contig_stats.pl Trinity-cd-hit-95.fa
 
 end=`date +%s`
 runtime=$((end-start))

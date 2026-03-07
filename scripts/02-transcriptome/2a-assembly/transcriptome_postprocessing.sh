@@ -7,8 +7,6 @@
 #SBATCH --account=fc_nachman
 #SBATCH --output=slurmout/peca_transcriptome_post_job_%A.out
 #SBATCH --error=slurmout/peca_transcriptome_post_job_%A.err
-#SBATCH --mail-type=ALL
-#SBATCH --mail-user=erinvoss@berkeley.edu
 
 cd /global/scratch/users/erinvoss/Peromyscus-RNA/02-Trinity-Assembly/PECA-Trinity-Output
 

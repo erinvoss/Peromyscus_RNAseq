@@ -16,6 +16,11 @@
 
 # Results 
 /results
+*.pdf
+*.png
+*.xls
+*.tsv
+*.csv
 
 # macOS files
 .DS_Store

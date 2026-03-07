@@ -23,6 +23,8 @@ module load python/3.9.12
 source activate trinity_env_2
 
 # Comment or uncomment each sequence analysis tool as needed below to build Trinotate input data. 
+# ERV Note: I worked through all the sequence analysis tools recommended in the Trinotate GitHub / Wiki, but after a detailed comparison of outputs, 
+# I decided to use just the hits from the P. maniculatus ENSEMBL CDS database as the best balance of completeness and reproducibility. 
 
 # Build Trinotate SQLite Database
 

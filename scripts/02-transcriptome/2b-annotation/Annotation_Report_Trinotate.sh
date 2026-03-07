@@ -54,7 +54,9 @@ ${TRINOTATE_HOME}/count_table_fields.pl ${resultsDir}/$shortName"_annotation_rep
 $TRINITY_HOME/support_scripts/get_Trinity_gene_to_trans_map.pl \
     ${data_inpath}/$shortName".fasta.transdecoder.cds.fasta" > $shortName".fasta.gene_trans_map"        
 
-# Make Annotation Feature Map 
+# Make Annotation Feature Map using custom P. maniculatus ENSEMBL hits
+# ERV Note: I worked through all the sequence analysis tools recommended in the Trinotate GitHub / Wiki, but after a detailed comparison of outputs, 
+# I decided to identify transcripts according to the P. maniculatus ENSEMBL CDS database as the best balance of completeness and reproducibility. 
 echo "Making annotation feature map using custom P. maniculatus ENSEMBL hits"
 ${TRINOTATE_HOME}/Trinotate_get_feature_name_encoding_attributes_custom_PEMA.pl \ 
                     # Note: this script was modified to map annotations to P. maniculatus ensembl identifiers

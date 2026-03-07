@@ -1,0 +1,4 @@
+PEBO-samples/PEBO_Testis_samples.tsv
+PEBO-samples/PEBO_SemVes_samples.tsv
+PEBO-samples/PEBO_Epididymis_samples.tsv
+PEBO-samples/PEBO_Liver_samples.tsv

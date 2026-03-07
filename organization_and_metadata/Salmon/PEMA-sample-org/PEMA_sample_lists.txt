@@ -1,0 +1,4 @@
+PEMA-samples/PEMA_Testis_samples.tsv
+PEMA-samples/PEMA_SemVes_samples.tsv
+PEMA-samples/PEMA_Epididymis_samples.tsv
+PEMA-samples/PEMA_Liver_samples.tsv

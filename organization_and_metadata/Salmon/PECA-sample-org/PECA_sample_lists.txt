@@ -1,0 +1,4 @@
+PECA-samples/PECA_Testis_samples.tsv
+PECA-samples/PECA_SemVes_samples.tsv
+PECA-samples/PECA_Epididymis_samples.tsv
+PECA-samples/PECA_Liver_samples.tsv
